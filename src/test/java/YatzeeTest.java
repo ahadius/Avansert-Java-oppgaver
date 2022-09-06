@@ -16,6 +16,7 @@ public class YatzeeTest {
     }
 
 
+
     @Test
     public void checkNumberOfCorrectOfDices(){
         var allDices = new allDices(new DiceValue[]{

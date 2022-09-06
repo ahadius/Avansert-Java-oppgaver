@@ -23,6 +23,7 @@ public class allDices {
             int thisDice = DiceValue.getValue();
             sum+= thisDice;
 
+
         }
         return sum;
     }
