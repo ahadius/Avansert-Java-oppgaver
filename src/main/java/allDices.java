@@ -16,6 +16,7 @@ public class allDices {
         return sum;
     }
 
+
     public int getSum(){
         int sum = 0;
         for(DiceValue DiceValue: dice){
