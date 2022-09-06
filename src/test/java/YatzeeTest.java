@@ -15,7 +15,6 @@ public class YatzeeTest {
         assertEquals(allDices.getSum(), 18);
     }
 
-
     @Test
     public void checkNumberOfCorrectOfDices(){
         var allDices = new allDices(new DiceValue[]{
