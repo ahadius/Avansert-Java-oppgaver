@@ -12,7 +12,19 @@ public class YatzeeTest {
             new DiceValue(1),
             new DiceValue(6),
         });
-        assertEquals(allDices.getSum(), 14);
+        assertEquals(allDices.getSum(), 18);
+    }
+
+    @Test
+    public void checkNumberOfCorrectOfDices(){
+        var allDices = new allDices(new DiceValue[]{
+                new DiceValue(5),
+                new DiceValue(4),
+                new DiceValue(2),
+                new DiceValue(6),
+                new DiceValue(6),
+        });
+        assertEquals(allDices.getScoreForVariableDiceValue(6), 12);
     }
 
 
